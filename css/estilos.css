@@ -1,0 +1,70 @@
+<!--Estilo-->
+<style>
+body{}
+.jumbotron {
+    background-color: #569ada;
+    color: white;
+    padding: 100px 25px;
+    font font-family: sans-serif;
+    text-align: center
+}
+.container-fluid {
+    padding: 40px 50px;
+}
+.bg-grey {
+    background-color: #cbcfcf;
+}
+.menu {
+    list-style: none;
+    padding: 0%;
+    background: #8183f8;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(2, 4, 124);
+}
+.panel-footer h4 {
+    color: #569ada;
+    font-size: 15px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+@media screen and (min-width:320px) {
+    img  {
+        max-width: 100%;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    img  {
+        max-width: 150px;
+    }
+    
+}
+@media screen and (min-width:980px) {
+    img  {
+        max-width: 225px;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    img  {
+        max-width: 300px;
+    }
+    
+}
+
+
+</style>
